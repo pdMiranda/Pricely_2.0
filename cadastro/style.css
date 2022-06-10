@@ -1,0 +1,51 @@
+body{
+    margin: 20px;
+    background-image: url(../images/imagem.png);
+}
+
+
+label {
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+
+img{
+    height: 250px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.container{
+    backdrop-filter:  blur(10px) saturate(150%);
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#grid-contatos{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+::placeholder {
+    color: rgb(0, 0, 0) !important;
+    opacity: 3;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:  rgb(0, 0, 0) !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:  rgb(0, 0, 0) !important;
+    opacity:  3;
+ }
+ h1 {
+     text-align: center;
+ }
+ #msg {
+     height: 60px;
+ }
+ #grid-contatos tbody {
+     cursor: pointer;
+ }
+
